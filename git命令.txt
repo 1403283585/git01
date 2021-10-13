@@ -5,3 +5,5 @@ git commit -m "提交一次"
 git reser HEAD git01.txt
 git reset --head
 git ls-files 	查看git仓库的文件
+git checkout -b dev origin/dev 拉取远程分支dev并切换
+git push origin :dev	删除分支
