@@ -1,6 +1,8 @@
 -*- utf-8 -*-
-git log				
-git reflog
+git log		查看日志				
+git reflog	查看历史日志
+git log --graph --pretty=oneline	查看日志
+git log --pretty=oneline	查看日志
 git add git01.txt
 git commit -m "提交一次"
 git reser HEAD git01.txt
@@ -11,3 +13,4 @@ git config --global user.email "1403283585@qq.com"
 git checkout -b dev origin/dev 拉取远程分支dev并切换
 git push origin :dev	删除分支
 git merge dev 	合并分支
+
