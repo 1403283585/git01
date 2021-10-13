@@ -1,0 +1,7 @@
+git log				
+git reflog
+git add git01.txt
+git commit -m "提交一次"
+git reser HEAD git01.txt
+git reset --head
+git ls-files 	查看git仓库的文件
